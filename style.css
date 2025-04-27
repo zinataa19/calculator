@@ -16,7 +16,7 @@
 	background-color: #003D5B; /* Dark Blue */
 	width: 100%;
 	max-width: 375px;
-	min-height: 640px;
+	min-height: 500px; /* reduced from 640px */
 	display: flex;
 	flex-direction: column;
 	border-radius: 1.5rem;
@@ -24,8 +24,8 @@
 }
 
 .display {
-	min-height: 200px;
-	padding: 1.5rem;
+	min-height: 120px; /* reduced from 200px */
+	padding: 1rem;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
@@ -50,7 +50,7 @@
 }
 
 .display .output {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	width: 100%;
 	white-space: nowrap;
@@ -79,7 +79,6 @@
 .keys .key {
 	position: relative;
 	cursor: pointer;
-
 	display: block;
 	height: 0;
 	padding-top: 100%;
@@ -94,7 +93,6 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
 	font-size: 2rem;
 	font-weight: 700;
 	color: #FFF;
